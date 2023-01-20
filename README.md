@@ -10,6 +10,7 @@ It is exactly the JeeLib Classic RFM12Pi/RFM69Pi firmware, with the addition of 
 
 Technical documentation and firmware for RFM69Pi can be found here. https://wiki.openenergymonitor.org/index.php/RFM69Pi_V3
 
+The firmware can be found here: https://github.com/openenergymonitor/RFM2Pi/tree/master/firmware/RFM69CW_RF_Demo_ATmega328.
 This firmware used the JeeLib Classic radio library, compatible with the original firmware for emonTx V3 and emonTh.
 
 You might use this if you convert your emonPi/emonBase to the LowPowerLabs radio library (compatible with emonTx V4) but need to hear from some devices via the JeeLib Classic format. For example, if you replace your RFM69Pi hat with the RFM69SPI hat.
