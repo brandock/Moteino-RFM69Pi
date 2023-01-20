@@ -4,7 +4,7 @@ Open Energy Monitor JeeLib Classic RFM69Pi using a Moteino from Low Power Lab. h
 Moteinos can be ordered with several different transceivers. The one neeeded for this project is the RFM69CW 433Mhz.
 
 # Moteino USB as RFM69Pi
-This sketch can be used with Moteino USB as a replacement (or addition to) the RFM69Pi hat.
+This RFM69Pi.ino sketch in this repository can be used with Moteino USB as a RFM69Pi hat for Open Energy Monitor JeeLib Classic transceivers.
 
 It is exactly the JeeLib Classic RFM12Pi/RFM69Pi firmware, with the addition of instructions for using it with a Moteino USB.
 
