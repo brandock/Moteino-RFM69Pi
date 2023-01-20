@@ -25,7 +25,7 @@ After upload, use the Serial Monitor (or other method) to set the node number of
 
 Add the following entry to emonHub. emonCMS > Setup > emonHub > Edit Config > add the text below > save.
 
-[[SerialDirect]]
+<code>[[SerialDirect]]
      Type = EmonHubSerialInterfacer
       [[[init_settings]]]
            com_port = /dev/ttyUSB0 
@@ -33,3 +33,4 @@ Add the following entry to emonHub. emonCMS > Setup > emonHub > Edit Config > ad
       [[[runtimesettings]]]
            pubchannels = ToEmonCMS,
            subchannels = ToRFM12,
+</code>
