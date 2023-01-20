@@ -1,5 +1,7 @@
 # Moteino-RFM69Pi
-Open Energy Monitor JeeLib Classic RFM69Pi using a Moteino with RFM69CW Radio.
+Open Energy Monitor JeeLib Classic RFM69Pi using a Moteino from Low Power Lab. https://lowpowerlab.com/
+
+Moteinos can be ordered with several different transceivers. The one neeeded for this project is the RFM69CW 433Mhz.
 
 # Moteino USB as RFM69Pi
 This sketch can be used with Moteino USB as a replacement (or addition to) the RFM69Pi hat.
@@ -11,7 +13,8 @@ Technical documentation and firmware for RFM69Pi can be found here. https://wiki
 This firmware used the JeeLib Classic radio library, compatible with the original firmware for emonTx V3 and emonTh.
 
 You might use this if you convert your emonPi/emonBase to the LowPowerLabs radio library (compatible with emonTx V4) but need to hear from some devices via the JeeLib Classic format. For example, if you replace your RFM69Pi hat with the RFM69SPI hat.
-![Moteino USB RFM69Pi JeeLib](https://user-images.githubusercontent.com/17953028/213807204-10e6be02-8a5d-44ca-a522-83c1fddec3ff.png)
+![Moteino USB RFM69Pi JeeLib](https://user-images.githubusercontent.com/17953028/213807911-efee877b-3453-48ba-8c6d-aa49f9e7cad3.png)
+
 
 
 # Notes
