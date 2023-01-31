@@ -13,9 +13,9 @@ Similarly, new emonBases are shipped with the RFM69SPI hat, which occupies the G
 ![Moteino USB RFM69Pi JeeLib](https://user-images.githubusercontent.com/17953028/213807911-efee877b-3453-48ba-8c6d-aa49f9e7cad3.png)
 
 # Flashing Moteino USB with RFM69Pi Firmware
-In this repository are the current versions of both the LowPowerLab and JeeLib firmware. The compiled .hex files in this repistory have been compiled to work with the Moteino USB and have the bootloader included for ongoing serial programming.
+In this repository are the current versions of both the LowPowerLab and JeeLib firmware. The .hex files have been compiled to work with the Moteino USB and have the bootloader included for ongoing serial programming, and .ino files can be flashed to the Moteino USB with Arduino IDE.
 
-RFM69Pi firmware is released by Open Energy Monitor as compiled binaries (.hex) and also as source code compatible with Arduino IDE (.ino). The compiled binaries are not compatible with Moteino USB because the two devices use diffent oscillators (internal in the case of RFM69Pi, external for Moteino USB). So the easiest way to flash the Moteino USB is to use Arduino IDE and upload the sketch as you would to Arduino Uno. Or use the compiled binaries in this repository, which are compatible with Moteino USB.
+RFM69Pi firmware is released by Open Energy Monitor as compiled binaries (.hex) and also as source code compatible with Arduino IDE (.ino). The compiled binaries are not compatible with Moteino USB because the two devices use diffent oscillators (8mhz internal in the case of RFM69Pi, 16mhz external for Moteino USB). So the easiest way to flash the Moteino USB is to use Arduino IDE and upload the sketch as you would to an Arduino Uno. Or you can use the compiled binaries in this repository, which are compatible with Moteino USB.
 
 The OEM repositories are here:
 https://github.com/openenergymonitor/RFM2Pi/tree/master/firmware/RFM69CW_RF_Demo_ATmega328
