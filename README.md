@@ -26,10 +26,10 @@ It works well to use a USB A Male to Micro Male adapter to connect the Moteino t
 
 After upload, use the Serial Monitor (or other method) to set the node number of the transciever. This sketch listens to serial input for commands. For example, send 14i to set the node to 14. 
 
-Add the following entry to emonHub. emonCMS > Setup > emonHub > Edit Config > add the text below > save.
+Add the following entry to the [interfacers] list in emonHub configuration. emonCMS > Setup > emonHub > Edit Config > add the text below > save.
 
 <code>
-     [[SerialDirect]]
+[[MoteinoUSB]]
      Type = Type = EmonHubJeeInterfacer
       [[[init_settings]]]
            com_port = /dev/ttyUSB0 
