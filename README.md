@@ -8,6 +8,7 @@ Moteinos from Low Power Lab (lowpowerlab.com) are also ATmega328 devices and the
 # JeeLib Classic and LowPowerLab Radio Libraries
 New Open Energy Monitor devices such as the emonTx v4 use a radio library developed by Felix Ruso at Low Power Lab. Older devices use the JeeLib library from JeeLabs. The RFM69Pi has firmware for each radio library, but is only compatible with one or the other at any given time. Moteinos can also run both versions of the firmware. Using an RFM69Pi and Moteino USB (or two Moteino USBs) it is possible to listen to both kinds of radio packets at once.
 ![Moteino USB RFM69Pi](https://user-images.githubusercontent.com/17953028/215905802-72d38021-0e80-4fe2-b613-6ec0da3623e4.png)
+
 Similarly, new emonBases are shipped with the RFM69SPI hat, which occupies the GPIO instead of the serial-based RFM69Pi. Add a Moteino USB and the emonBase can listen to JeeLib packets as well.
 ![Moteino USB RFM69Pi JeeLib](https://user-images.githubusercontent.com/17953028/213807911-efee877b-3453-48ba-8c6d-aa49f9e7cad3.png)
 
