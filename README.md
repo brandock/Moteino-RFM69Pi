@@ -1,7 +1,7 @@
 # Moteino USB as RFM69Pi
 Open Energy Monitor sensors use HopeRF RFM69CW radios to send data to emonHub, where it is processed, stored, and visualized with emonCMS. (https://openenergymonitor.org/)
 
-The RFM69Pi hat is the gateway that receives the radio packets and writes them via serial to emonHub. The device is comprised of an ATmega328 with RFM69CW radio. Technical documentation and firmware for RFM69Pi can be found here. https://wiki.openenergymonitor.org/index.php/RFM69Pi_V3
+The RFM69Pi hat is the gateway that receives the radio packets and writes them via serial to emonHub. The device is comprised of an ATmega328 with RFM69CW radio. Technical documentation and firmware for RFM69Pi can be found here. https://docs.openenergymonitor.org/emonbase/rfm69-pi.html
 
 Moteinos from Low Power Lab (lowpowerlab.com) are also ATmega328 devices and they support several different HopeRF transceivers, including the RFM69CW. They have all the necessary parts to act as an RFM69Pi, and can communicate via serial USB to emonHub.
 
